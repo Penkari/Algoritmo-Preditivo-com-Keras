@@ -187,7 +187,7 @@ resultado_de_avaliacao = classificador.evaluate(
 print(f'\nPrecisão do Conjunto de Provas: {resultado_de_avaliacao[-1] * 100:.2f}%')
 ```
 
-<img src="raw.githubusercontent.com/Penkari/recursos/main/turbina/Resultado_de_Teste.jpeg?token=GHSAT0AAAAAACRU5LUGT4OW63M7RHIUZK64ZSRMUYA">
+![Resultado do Teste](https://raw.githubusercontent.com/Penkari/recursos/main/turbina/Resultado_de_Teste.jpeg?token=GHSAT0AAAAAACRU5LUGT4OW63M7RHIUZK64ZSRMUYA)
 
 Após alguns testes de treinamento e teste, a precisão do modelo ficou entre 97% e 95%.
 
