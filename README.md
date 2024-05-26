@@ -176,7 +176,7 @@ classificador.fit(
 
 Usaremos a primeira função de entrada com o parâmetro de 'treinamento' sendo (True), isso permitirá com que os dados sejam embaralhados através do método shuffle a cada passo por época, ao qual foi definida como 5000.
 
-<img src="https://raw.githubusercontent.com/Penkari/recursos/main/turbina/Treinamento_do_Modelo.gif?token=GHSAT0AAAAAACRU5LUH2Y2EYHZ6LXHE4FPGZSRMR7Q">
+<img src="https://raw.githubusercontent.com/Penkari/recursos/main/turbina/Treinamento_do_Modelo.gif">
 
 Vamos agora colocar o modelo para ser testado.
 
@@ -187,7 +187,7 @@ resultado_de_avaliacao = classificador.evaluate(
 print(f'\nPrecisão do Conjunto de Provas: {resultado_de_avaliacao[-1] * 100:.2f}%')
 ```
 
-![Resultado do Teste](https://raw.githubusercontent.com/Penkari/recursos/main/turbina/Resultado_de_Teste.jpeg?token=GHSAT0AAAAAACRU5LUGT4OW63M7RHIUZK64ZSRMUYA)
+![Resultado do Teste](https://raw.githubusercontent.com/Penkari/recursos/main/turbina/Resultado_de_Teste.jpeg)
 
 Após alguns testes de treinamento e teste, a precisão do modelo ficou entre 97% e 95%.
 
